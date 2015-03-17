@@ -139,7 +139,8 @@ def main ():
       [[-0.9,-0.2,-0.6,0.6,0.7], [1,-1,-1]]
   ]
 
-  # 5 input layers, 10 Hidden layers, 3 output layers 
+  # 5 input layers, 10 Hidden layers, 3 output layers
+   
   myNN = NN ( 5, 10, 3)
   myNN.train(pat)
   

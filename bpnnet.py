@@ -1,3 +1,5 @@
+#Author Jay And Sunny
+
 import math
 import random
 import string
@@ -140,7 +142,7 @@ def main ():
   ]
 
   # 5 input layers, 10 Hidden layers, 3 output layers
-   
+
   myNN = NN ( 5, 10, 3)
   myNN.train(pat)
   
